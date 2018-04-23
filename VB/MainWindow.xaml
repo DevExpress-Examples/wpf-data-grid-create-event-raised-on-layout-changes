@@ -1,0 +1,33 @@
+﻿<Window 
+    x:Class="DXGridSample.MainWindow" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
+    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" 
+	xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+	xmlns:local="clr-namespace:GridLayoutHelper"
+    Name="win" 
+    Title="MainWindow" 
+    Height="350" 
+    Width="525">
+	<Grid Name="LayoutRoot">
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+		<dxg:GridControl x:Name="grid" AutoGenerateColumns="AddNew">
+			<dxg:GridControl.View>
+				<dxg:TableView x:Name="view"/>
+			</dxg:GridControl.View>
+            <dxmvvm:Interaction.Behaviors>
+				<local:GridLayoutHelper LayoutChanged="GridLayoutHelper_Trigger"/>
+			</dxmvvm:Interaction.Behaviors>
+		</dxg:GridControl>
+		<StackPanel Grid.Row="1">
+			<Button Name="AddColumn" Content="AddColumn" Click="AddColumn_Click"/>
+			<Button Name="RemoveColumn" Content="RemoveColumn" Click="RemoveColumn_Click"/>
+		</StackPanel>
+	</Grid>
+</Window>
