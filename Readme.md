@@ -4,7 +4,7 @@
 * [GridLayoutHelper.cs](./CS/E4609/Implementation/GridLayoutHelper.cs) (VB: [GridLayoutHelper.vb](./VB/E4609/Implementation/GridLayoutHelper.vb))
 * [PropertyChangeNotifier.cs](./CS/E4609/Implementation/PropertyChangeNotifier.cs) (VB: [PropertyChangeNotifier.vb](./VB/E4609/Implementation/PropertyChangeNotifier.vb))
 * [MainWindow.xaml](./CS/E4609/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/E4609/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/E4609/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/E4609/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/E4609/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/E4609/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to provide an event that is raised on changing a grid layout
 
