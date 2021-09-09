@@ -36,25 +36,43 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v15.2">
+    <Reference Include="DevExpress.Data.v21.1">
       <SpecificVersion>false</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Mvvm.v15.2">
+    <Reference Include="DevExpress.Mvvm.v21.1">
       <SpecificVersion>false</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Printing.v15.2.Core">
+    <Reference Include="DevExpress.Pdf.v21.1.Core">
       <SpecificVersion>false</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v15.2">
+    <Reference Include="DevExpress.Office.v21.1.Core">
       <SpecificVersion>false</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Printing.v15.2">
+    <Reference Include="DevExpress.RichEdit.v21.1.Core">
       <SpecificVersion>false</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v15.2">
+    <Reference Include="DevExpress.RichEdit.v21.1.Export">
       <SpecificVersion>false</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v15.2.Core">
+    <Reference Include="DevExpress.Printing.v21.1.Core">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.CodeView.v21.1">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v21.1">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v21.1">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v21.1">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v21.1">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v21.1.Core">
       <SpecificVersion>false</SpecificVersion>
     </Reference>
     <Reference Include="System" />
@@ -123,4 +141,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
 </Project>
