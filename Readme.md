@@ -8,7 +8,7 @@
 
 This example demonstrates how to create an event that is raised when a user changes the [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl)'s layout.
 
-![image](https://user-images.githubusercontent.com/65009440/186855425-d8682588-b7dd-46f2-9df1-d715f963c17d.png)
+![image](https://user-images.githubusercontent.com/65009440/186855425-d8682588-b7dd-46f2-9df1-d715f963c17d.png) 
 
 In this example, the `GridLayoutHelper` class handles changes of the [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl) and [GridColumn](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridColumn) layout properties and raises a custom event. The event's handler logs layout changes in the **Output** window:
 
