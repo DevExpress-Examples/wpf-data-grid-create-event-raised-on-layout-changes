@@ -46,7 +46,7 @@ The following code sample demonstrates how to attach the `GridLayoutHelper` clas
 
 * [WPF Data Grid - Save Layout and Restore It from a Memory Stream](https://github.com/DevExpress-Examples/how-to-save-grid-layout-to-and-restore-it-from-a-memory-stream-e1655)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-create-event-raised-on-layout-changes&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-create-event-raised-on-layout-changes&~~~was_helpful=no)
 
